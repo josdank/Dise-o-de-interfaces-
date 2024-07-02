@@ -1,0 +1,48 @@
+h1{
+    text-align: center; color: forestgreen;
+}
+
+.parrafo1{
+    color: darkgreen;
+}
+.parrafo2{
+    color: red;
+}
+img{
+    width: 350px;
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+}
+nav{
+    background-color: #333;
+}
+.menu-horizontal{
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+.menu-horizontal li{
+    margin: 0;
+    padding: 0;
+}
+.menu-horizontal li a{
+    margin: 0;
+    padding: 0;
+}
+
+.imagenes{
+    display: flex;
+    background-color: darkseagreen;
+}
+.multimedia{
+    background-color: aqua;
+}
+.videos{
+    background-color: blueviolet;
+}
+body{
+    background-color: darkslategrey;
+}

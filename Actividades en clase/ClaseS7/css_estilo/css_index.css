@@ -1,0 +1,101 @@
+h1{
+    color: rgb(140, 0, 255);
+}
+
+.cabecera{
+    background-color: rgb(161, 230, 161);
+}
+
+.imagenes{
+    background-color: rgb(130, 203, 206);
+    display: flex;
+    padding-bottom: 20px;
+}
+.imagenes div{
+    margin: 0 25px;
+}
+.button1 {
+    position: absolute;
+    top: 400px;
+    margin: 0 35px;
+    left: 180px;
+    color: azure;
+    background-color: rgb(160, 141, 214);
+    font-size: 20px;
+    border-radius: 20px;
+    font-family:cursive;
+}
+
+.button2 {
+    position: absolute;
+    top: 400px;
+    margin: 0 35px;
+    left: 790px;
+    color: azure;
+    background-color: rgb(160, 141, 214);
+    font-size: 20px;
+    border-radius: 20px;
+    font-family:cursive;
+}
+.button3 {
+    position: absolute;
+    top: 400px;
+    margin: 0 35px;
+    left: 1400px;
+    color: azure;
+    background-color: rgb(160, 141, 214);
+    font-size: 20px;
+    border-radius: 20px;
+    font-family:cursive;
+}
+button:hover{
+    color: rgb(31, 37, 129);
+    background-color: rgb(141, 214, 147);
+    font-size: 20px;
+    border-radius: 20px;
+    font-family:cursive;
+    transform:scale(1.3) ;
+}
+
+img{
+    width: 450px;
+    height: 200px;
+    margin: 15;
+}
+
+.footer{
+    background-color: rgb(217, 173, 230);
+    display: flex;
+}
+
+.footer{
+    display: flexbox;
+    
+    }
+    .p1{
+        background-color: mediumorchid;
+        width: 30%;
+    }
+    .p2{
+        background-color:rgb(217, 173, 230);
+        margin-left: 15px;
+        padding-left: 15px;
+    }
+
+.grid-items{
+    background-color: rgb(106, 173, 196);
+    border: 1PX solid black;
+    padding: 20px;
+    text-align: center;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+    margin: 10px;
+}
+
+.grid-container div{
+    margin:10px;
+}
