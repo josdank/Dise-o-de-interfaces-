@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="css/estilo_login.css">
+</head>
+<body>
+    
+    <div class="container login-container">
+        <div class="login-header">
+            <h1>Formulario de Registro</h1>
+            <form action="datos.html" id="loginForm">
+                <label for="nombre">Usuario</label><br>
+                <input type="text" id="usuario" class="label" required><br> <br> 
+                <label for="password" class="password">Contraseña</label><br>
+                <input type="password"id="contra" class="label" required>
+                <button type="button" onclick="validar()" class="btn">Login </button>
+            </form> 
+            <br><div id="error-message" ></div>
+        </div>
+    </div>
+    <script src="JavaScript/login.js"></script>
+</body>
+</html>
